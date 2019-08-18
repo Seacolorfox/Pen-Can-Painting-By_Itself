@@ -19,7 +19,7 @@ namespace P_c_pDemo
 
         private void P_c_pDemo_Load(object sender, EventArgs e)
         {
-
+            notifyIcon1.ShowBalloonTip(3000);
         }
 
     }
